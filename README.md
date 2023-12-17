@@ -32,4 +32,9 @@ add commit message hook
 npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 ```
 
-Reference: https://commitlint.js.org/#/guides-local-setup
+finally install `vivaxy.vscode-conventional-commits` extension to commit the code in visual code editor or use [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) standard while adding comment message
+
+**Reference:** [commitlint - Guide: Local setup](https://commitlint.js.org/#/guides-local-setup)
+
+
+## Initialize semantic versioning
