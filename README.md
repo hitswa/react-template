@@ -38,3 +38,26 @@ finally install `vivaxy.vscode-conventional-commits` extension to commit the cod
 
 
 ## Initialize semantic versioning
+
+```bash
+npm install -g standard-version
+```
+
+
+```bash
+npm i --save-dev standard-version
+```
+
+then add script in package.json file
+
+```bash
+{
+  "scripts": {
+    "release": "standard-version",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
+  }
+}
+```
+
